@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>HTML Lesson</title>
+    <style>
+      label {
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <label for="mail">inserisci la tua email</label>
+      <input type="email" name="mail">
+      <br>
+      <label for="pass">inserisci la tua password</label>
+      <input type="password" name="pass">
+      <br>
+      <label for="person">inserisci il tuo nome seguito dal cognome</label>
+      <input type="text" name="person">
+      <br>
+      <label for="birth">inserisci la tua data di nascita</label>
+      <input type="date" name="birth">
+      <br>
+      <label for="cell">inserisci il tuo numero di telefono</label>
+      <input type="tel" name="cell">
+    </form>
+      <br>
+    <form>
+      <label for="pro">SCEGLI IL TUO PIANO</label>
+      <label >piano free</label>
+      <input type="radio" name=pro >
+      <br>
+      <fieldset>
+        <legend>piano a pagamento</legend>
+        <label for="1€">1€ al giorno</label>
+        <input type="radio" name="pro" id="1€">
+        <label for="10€">10€ al mese</label>
+        <input type="radio" name="pro" id="10€">
+        <label for="50€">50 € all'anno</label>
+        <input type="radio" name="pro" id="50€">
+        <br>
+        <label for="checkpro">piano PRO</label>
+        <input type="checkbox" name="checkpro" checked disabled>
+        <br>
+        <label for="number-input">inserisci il numero della carta di credito</label>
+        <input type="text" maxlength="19" name="number-input">
+        <br>
+        <label for="cvc-input">CVC</label>
+	      <input type="text" maxlength="3" cols="3" name="cvc-input">
+        <br>
+        <label for="expiry-input">data di scadenza</label>
+	      <input type="date" name="expiry-input">
+        <br>
+        <label for="address">indirizzo di fatturazione</label>
+        <input type="text" name="address">
+      </fieldset>
+     </form>
+ </body>
+</html>
