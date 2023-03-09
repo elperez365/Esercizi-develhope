@@ -1,0 +1,12 @@
+const names = ["Luca", "Marco", "Vittorio", "Giovanni"];
+console.log ("questo è il nostro array")
+console.log (names)
+console.log ("rimuovo l'ultimo elemento")
+names.pop()
+console.log (names)
+console.log ("aggiungo il nome pippo in coda")
+names.push ("pippo")
+console.log (names)
+console.log ("aggiungo il nome giovanni in testa")
+names.unshift ("Giovanni")
+console.log (names)
