@@ -33,35 +33,29 @@
       <input type="tel" name="cell">
     </form>
       <br>
-    <form>
-      <label for="pro">SCEGLI IL TUO PIANO</label>
-      <label >piano free</label>
-      <input type="radio" name=pro >
-      <br>
-      <fieldset>
-        <legend>piano a pagamento</legend>
-        <label for="1€">1€ al giorno</label>
-        <input type="radio" name="pro" id="1€">
-        <label for="10€">10€ al mese</label>
-        <input type="radio" name="pro" id="10€">
-        <label for="50€">50 € all'anno</label>
-        <input type="radio" name="pro" id="50€">
-        <br>
-        <label for="checkpro">piano PRO</label>
-        <input type="checkbox" name="checkpro" checked disabled>
-        <br>
-        <label for="number-input">inserisci il numero della carta di credito</label>
-        <input type="text" maxlength="19" name="number-input">
-        <br>
-        <label for="cvc-input">CVC</label>
-	      <input type="text" maxlength="3" cols="3" name="cvc-input">
-        <br>
-        <label for="expiry-input">data di scadenza</label>
-	      <input type="date" name="expiry-input">
-        <br>
-        <label for="address">indirizzo di fatturazione</label>
-        <input type="text" name="address">
-      </fieldset>
-     </form>
- </body>
+    <label for="plan">
+      scegli il tuo piano
+    </label>
+    <select name="plan" id="favorite plan">
+      <option value="free">free</option>
+      <option value="1€">1€ al giorno</option>
+      <option value="10€">10€ al mese</option>
+      <option value="50€">50 € all'anno</option>
+      </select>
+    <button for="favorite plan">submit</button>
+    <label for="checkpro">piano PRO</label>
+    <input type="checkbox" name="checkpro">
+    <br>
+    <label for="number-input">inserisci il numero della carta di credito</label>
+    <input type="text" maxlength="19" name="number-input">
+    <br>
+    <label for="cvc-input">CVC</label>
+    <input type="text" maxlength="3" cols="3" name="cvc-input">
+    <br>
+    <label for="expiry-input">data di scadenza</label>
+    <input type="date" name="expiry-input">
+    <br>
+    <label for="address">indirizzo di fatturazione</label>
+    <input type="text" name="address">
+  </body>
 </html>
