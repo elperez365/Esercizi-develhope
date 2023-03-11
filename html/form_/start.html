@@ -37,10 +37,14 @@
       scegli il tuo piano
     </label>
     <select name="plan" id="favorite plan">
-      <option value="free">free</option>
-      <option value="1€">1€ al giorno</option>
-      <option value="10€">10€ al mese</option>
-      <option value="50€">50 € all'anno</option>
+      <optgroup label="free plan">
+        <option value="free">free</option>
+      </optgroup>
+      <optgroup label="pro plan">
+        <option value="1€">1€ al giorno</option>
+        <option value="10€">10€ al mese</option>
+        <option value="50€">50 € all'anno</option>
+      </optgroup>
       </select>
     <button for="favorite plan">submit</button>
     <label for="checkpro">piano PRO</label>
